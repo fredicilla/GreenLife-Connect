@@ -61,42 +61,140 @@
 
       }
       .container{
-          border: 3px solid purple;
           margin-top: 50px ;
           height: 75vh;
           padding: 30px;
           margin: 50px; 
           border-radius: 5px;
+
           
       }
       .services{
           display: flex;
-          border: 2px red solid;
-          height: 70vh;
+          height: 80vh;
           justify-content: space-evenly;
           margin-top:30px;
-          line-height: 2;
-          line-gap-override: 5%;
+          line-height: 2.5;
+          background-color: rgb(249, 249, 229);
+          border-radius: 15px;
       }
       .container h1{
           text-align: center;
       }
       .pg-conatiner{
-          border: 2px saddlebrown solid;
           width: 100%;
+          padding: 20px;
+          text-align: center;
+          
       }
+      .pg-conatiner h5{
+          margin-top: 50px;
+      }
+      .pg-conatiner h3{font-size: x-large;}
       .recycling-services{
-          border: 2px green solid;
           width:100%
       }
      .r-container{
-          border: 3px solid yellowgreen;
           display: flex;
-          border: 2px red solid;
-          height: 70vh;
+          height: 80vh;
           justify-content: space-evenly;
           margin-top:30px;
-          line-height: 2;
+          line-height: 2.5;
+          background-color: rgb(249, 249, 229);
+          padding: 20px;
+          border-radius: 15px;
      }
-
-      
+     .recycling-services h5{
+          margin-top: 19px;
+      }
+      .recycling-services h3{font-size: x-large;}
+.visit-site{
+          height: 50px;
+          width: 200px;
+          top: 10px;
+          margin-right: 15px;
+          border-radius: 5px;
+          border: none;
+          background-color:#49A078;
+          font-family: 'Wendy One', sans-serif;
+          /* bottom: auto; */
+}
+.visit-site a{
+          color: white;
+}
+.btnvisit{
+          height: 150px;
+          display: flex;
+          justify-content: center;
+          align-items: end;
+          margin-top: 50px;
+}
+.btnvisit2{
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: end;
+          margin-top: 10px;
+}
+footer {
+          background-color: #b7e4c7;
+          color: #49A078;
+          padding: 40px 0;
+          bottom: auto;
+          /* REMEMBER YOU HAVE A PROBLEM HERE ASK THE TEACHER */
+          margin-top: 120vh;
+        }
+        
+        .footer-content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+        
+       .footer-content h2 {
+          margin-bottom: 20px;
+        }
+        
+        .contact-details {
+          margin-bottom: 20px;
+        }
+        
+        .contact-details p {
+          margin: 5px 0;
+        }
+        
+        .footer-social {
+          display: flex;
+          justify-content: center;
+        }
+        
+        .footer-social a {
+          display: inline-block;
+          margin: 0 10px;
+          color: #444;
+        }
+        
+        .footer-social img {
+          width: 30px;
+        }
+        
+        h3 {
+          margin-bottom: 10px;
+        }
+        
+        .footer-bottom {
+          text-align: center;
+          margin-top: 40px;
+        }
+        
+        .footer-bottom p {
+          margin: 0;
+        }
+        
+        hr {
+          border: none;
+          border-top: 1px solid #444;
+          margin: 20px 0;
+        }
