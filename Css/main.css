@@ -1,34 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Wendy+One&display=swap');
 *{
           margin: 0px;
           padding: 0px;
-          text-decoration: none;
-}
-
-header{
+          text-decoration: none;        
+      }
+      body{
+          background-color: rgb(229, 255, 232);
+          font-family: 'Wendy One', sans-serif;
+      }
+      
+      header{
           background-color: rgb(203, 227, 195);
           height: 70px;
-          width: 100%;
+          width: 65%;
           display: flex;
-          flex-direction: row;
-
-}
-#logo{
-          height: 90px;
-          width:180px;
-}
-.a-tags{
-          margin-top: 2.5%;
-          margin-left: 10%;
-}
-#feedback{
-          margin-left:55% ;
+          justify-content: space-between; 
+          align-items: center; 
+          margin-left: 18%;
+          margin-top: 3%;
+          border-radius: 5px;
+      }
+      
+      #logo{
           height: 50px;
-          width:100px;
-          margin-top: 8px;
-}
-main{
-          background-color: rgb(217, 233, 220);
-          height: 100vh;
-          width: 100%; 
+          width: 140px;
+      }
+      
+      #tags{
+          display: flex;
+          justify-content: center; 
+          align-items: center; 
+          height: 70px;
+          border: 2px solid blue;
+      }
+      
+      .a-tags{
+          margin-top: 2.5%;
+          margin-left: 10px; /* Adjust as needed */
+          display: inline-block;
+          justify-content: center;
+          height: 15px;
+          width: 50px;
+          border: 2px solid red;
+      }
+      
+      #feedback{
+          height: 50px;
+          width: 100px;
+          top: 10px;
+          margin-right:15px
+      }
+      .aboutus{text-align: center;
+line-height: 70px;}
 
+.intro{
+          border: 2px solid red;
+          text-align: center;
+          height: 80vh;
+          background-image:url(../Img/background\ green\ dots.jpg) ;
+          background-repeat: repeat;
+          display:flex;
+          flex-direction: column;
+
+}
+.earth{
+          height: 250px;
+          width: 250px;
+          justify
+}
+.why{
+          border: 2px solid red;
+          text-align: center;
+          height: 80vh;
+}
+.visit-estore{
+          border: 2px solid red;
+          text-align: center;
+          height: 80vh;         
+}
+.feedback-section{
+          border: 2px solid red;
+          text-align: center;
+          height: 80vh;          
 }

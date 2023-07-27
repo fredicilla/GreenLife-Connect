@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Wendy+One&display=swap');
+*{
+          margin: 0px;
+          padding: 0px;
+          text-decoration: none;        
+      }
+      body{
+          font-family: 'Wendy One', sans-serif;
+          background-image: url(../Img/background\ green\ dots.jpg);
+      }
+      
+      header{
+          background-color: rgb(249, 249, 229);
+          height: 70px;
+          width: 65%;
+          display: flex;
+          justify-content: space-between; 
+          align-items: center; 
+          margin-left: 18%;
+          margin-top: 3%;
+          border-radius: 5px;
+      }
+      
+      #logo{
+          height: 50px;
+          width: 140px;
+      }
+      
+
+      #bar{
+          width: 500px;
+          gap: 15px;
+          display: flex;
+          justify-content: space-evenly; 
+          margin-bottom:2%;
+
+      }
+      
+      .a-tags{
+          margin-top: 2.5%;
+          margin-left: 10px; 
+          display: inline-block;
+          justify-content: center;
+          height: 15px;
+          width: 50px;
+          font-size: larger;
+          color: #49A078;
+          
+      }
+      
+      #feedback {
+          height: 50px;
+          width: 100px;
+          top: 10px;
+          margin-right: 15px;
+          border-radius: 5px;
+          border: none;
+          background-color:#49A078;
+          color: #49A078;
+          font-family: 'Wendy One', sans-serif;
+
+      }
+
+
+
+      .products {
+          padding: 50px 0;
+          display: flex;
+          flex-direction: row;
+          background-color: rgb(249, 249, 229);
+          margin: 15px;
+        }
+        .container{
+          display: flex;
+          gap: 10px;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+        
+        .product-card {
+          text-align: center;
+          margin-bottom: 40px;
+          padding: 20px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          background-color: #fff;
+          height: 390px;
+          width: calc(25%);
+        }
+        
+        .product-card img {
+          width: 200px;
+          height: 200px;
+          border-radius: 2.5%;
+          margin-bottom: 10px;
+        }
+        
+        .product-card h3 {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+        
+        .product-card p {
+          font-size: 16px;
+          margin-bottom: 15px;
+        }
+        
+        .price {
+          font-size: 20px;
+          font-weight: bold;
+          color: #49A078;
+          border: 2px solid red;
+          margin-top: 100px;
+          
+        }    
+.image-transition{
+          transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.image-transition:hover{
+          transform: scale(1.09);
+}

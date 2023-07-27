@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Wendy+One&display=swap');
+*{
+          margin: 0px;
+          padding: 0px;
+          text-decoration: none;        
+      }
+      body{
+          font-family: 'Wendy One', sans-serif;
+          background-image: url(../Img/background\ green\ dots.jpg);
+      }
+      
+      header{
+          background-color: rgb(249, 249, 229);
+          height: 70px;
+          width: 65%;
+          display: flex;
+          justify-content: space-between; 
+          align-items: center; 
+          margin-left: 18%;
+          margin-top: 3%;
+          border-radius: 5px;
+      }
+      
+      #logo{
+          height: 50px;
+          width: 140px;
+      }
+      
+
+      #bar{
+          width: 500px;
+          gap: 15px;
+          display: flex;
+          justify-content: space-evenly; 
+          margin-bottom:2%;
+
+      }
+      
+      .a-tags{
+          margin-top: 2.5%;
+          margin-left: 10px; 
+          display: inline-block;
+          justify-content: center;
+          height: 15px;
+          width: 50px;
+          font-size: larger;
+          color: #49A078;
+          
+      }
+      
+      #feedback {
+          height: 50px;
+          width: 100px;
+          top: 10px;
+          margin-right: 15px;
+          border-radius: 5px;
+          border: none;
+          background-color:#49A078;
+          color: #49A078;
+          font-family: 'Wendy One', sans-serif;
+
+      }
+      .container{
+          border: 3px solid purple;
+          margin-top: 50px ;
+          height: 75vh;
+          padding: 30px;
+          margin: 50px; 
+          border-radius: 5px;
+          
+      }
+      .services{
+          display: flex;
+          border: 2px red solid;
+          height: 70vh;
+          justify-content: space-evenly;
+          margin-top:30px;
+          line-height: 2;
+          line-gap-override: 5%;
+      }
+      .container h1{
+          text-align: center;
+      }
+      .pg-conatiner{
+          border: 2px saddlebrown solid;
+          width: 100%;
+      }
+      .recycling-services{
+          border: 2px green solid;
+          width:100%
+      }
+     .r-container{
+          border: 3px solid yellowgreen;
+          display: flex;
+          border: 2px red solid;
+          height: 70vh;
+          justify-content: space-evenly;
+          margin-top:30px;
+          line-height: 2;
+     }
+
+      

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Wendy+One&display=swap');
+* {
+          margin: 0;
+          padding: 0;
+          font-family: 'Wendy One', sans-serif;
+          text-decoration: none;
+      }
+      
+      header {
+          height: 94vh;
+          width: 100%;
+          background-color: rgb(158, 198, 158);
+          display: flex;
+          flex-direction: column;
+          background-image: url(../Img/background\ green\ dots.jpg);
+      }
+      
+      nav {
+          display: flex;
+
+          justify-content: space-between; 
+          align-items: center;
+          width: 100%;
+          height: 70px;
+      }
+      .bar{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+      
+      #logo {
+          height: 50px;
+          width: 140px;
+          margin-top: 1%;
+      }
+      .bar{
+          width: 100%;
+          gap: 225px;
+          
+      }
+      
+      .a-tags { 
+          display: inline-block;
+          justify-content: center;
+          height: 15px;
+          width: 50px;
+          gap: 5px;
+          color: #49A078;
+          font-size: 20px;
+      }
+      
+      #feedback {
+          height: 50px;
+          width: 100px;
+          top: 10px;
+          margin-right: 15px;
+          border-radius: 5px;
+          border: none;
+          background-color:#49A078;
+          color: #49A078;
+      }
+      
+      .slogan {
+          margin-top: 250px;
+          margin-left: 50px;
+          
+      }
+
+.intro {
+          display: flex;
+          background-color: rgb(249, 249, 229);
+          height: 100vh;
+          padding: 20px; 
+        }
+        
+        .earth {
+          height: 450px;
+          width: 450px;
+          margin-left: auto; 
+          margin-top: 90px;
+        }
+        
+        .introcontent {
+          display: flex;
+          flex-direction: column; 
+          align-items: flex-start; 
+          justify-content: flex-start; 
+          margin-right: 20px; 
+          margin-top: 5%;
+          font-size: large;
+          line-height: 1.9;
+        }
+        
+        .introtitle {
+          height: 500px;
+          margin-bottom: 70px;
+          width: 559px;
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;          
+        }
+        .why {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          height: 80vh;
+          background-color: #49A078;
+          color:rgb(249, 249, 229) ;
+          letter-spacing: 2px;
+
+        }
+        
+        .heading-container {
+          margin-bottom: 20px; 
+          margin-top: 90px;
+        }
+        
+        .content-container {
+          line-height: 2;
+          border: 2px solid green;
+          height: 400px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 100px;
+        }
+        
+  .join-us {
+          height: 80vh;
+          background-color: rgb(249, 249, 229) ;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .centered-text {
+          text-align: center;
+        }
+        
+        h2 {
+          font-size: 40px;
+          margin-bottom: 10px;
+        }
+        
+        p {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+        
+        .buttons {
+          display: flex;
+          justify-content: center;
+        }
+        
+        .store-button {
+          background-color: yellow;
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 0 10px;
+          color: #49A078;
+          border-radius: 5px;
+          font-size: 20px;
+        }
+        
+        .feedback-button {
+          background-color:#49A078;
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 0 10px;
+          color: rgb(249, 249, 229);
+          border-radius: 5px;
+          font-size: 20px;
+        }
+        
